@@ -259,7 +259,7 @@ a {
     }
 
     .outer-container {
-        background: url(assets/img/NFT_Highlight_Mobile.png) !important;
+        background-image: url(assets/img/NFT_Highlight_Mobile.png) !important;
         height: 593px !important;
         width: 375px !important;
         padding-bottom: 30px !important;
