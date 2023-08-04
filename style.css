@@ -395,7 +395,19 @@ header {
     margin-right: 12px;
 }
 
-.two_dots
+.container {
+    max-width: 1074px !important;
+    
+}
+
+
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1074px;
+    }
+
+}
 
 .desktop_dn {
     display: none;
@@ -1250,6 +1262,4 @@ footer {
     line-height: 110%; /* 13.2px */
     margin-bottom: 0;    
 }
-
-
 
