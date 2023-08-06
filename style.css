@@ -377,7 +377,7 @@ a {
     }
 
     .create_account_div {
-        padding: 30px 18px 40px !important;
+        padding: 30px 18px 40px 30px !important;
     }
 
     .ca_h2 {
@@ -395,9 +395,8 @@ a {
         margin-top: 30px !important;
         width: 100% !important;
     }
-
+ 
 }
-
 
     @media screen and (min-width: 767px) {
   
@@ -1355,4 +1354,21 @@ footer {
     font-weight: 600;
     line-height: 140%; /* 22.4px */    
 }
+
+.cosmos_image {
+    height: 691px;
+}
+
+.pe_cst {
+    padding-right: 30px !important;
+}
+
+@media screen and (max-width: 767px) {
+
+    .pe_cst {
+        padding-right: 0px !important;
+    }
+
+}
+
 
