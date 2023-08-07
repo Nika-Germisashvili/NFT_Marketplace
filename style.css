@@ -395,6 +395,52 @@ a {
         margin-top: 30px !important;
         width: 100% !important;
     }
+
+    .avatar_container {
+        justify-content: center;
+    }
+
+    .h2_anima {
+        font-size: 28px !important;
+        line-height: 140% !important; /* 39.2px */
+    }
+
+    .container_animakid {
+        padding: 30px 30px !important;
+    }
+
+    .button_b79, .button_follow {
+        width: 100% !important;
+    }
+
+    .cstm_m {
+        margin-right: 0px !important;
+    }
+
+    .h5_bio {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        line-height: 140% !important; /* 22.4px */
+    
+    }
+    
+    .anima_text_1 {
+        font-size: 16px !important;
+        line-height: 140% !important; /* 22.4px */ 
+        text-transform: none !important;
+    }
+
+    .container_tabs {
+        padding: 0 30px !important;
+    }
+
+    .tab_button_active, .tab_button {
+        font-size: 16px !important;
+    }
+
+    .nft_cards_container {
+        padding: 0 30px !important;
+    }
  
 }
 
@@ -706,6 +752,10 @@ img {
     position: relative;
 }
 
+.custom_card_2:hover {
+    cursor: pointer;
+}
+
 .card_number {
     width: 30px;
     height: 30px;
@@ -917,7 +967,7 @@ img {
     color: #858584;
 
     /* Caption - Space Mono */
-    font-family: Space Mono;
+    font-family: spacemono;
     font-size: 12px;
     line-height: 110%; /* 13.2px */    
 }
@@ -1371,4 +1421,176 @@ footer {
 
 }
 
+.profile_background_img {
+    height: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile_background_img_mobile {
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.avatar_container {
+    margin-top: -70px;
+}
+
+.container_animakid {
+    padding: 40px 0;
+}
+
+.h2_anima {
+    color: var(--white, #FFF);
+
+    /* H2 - Work Sans */
+    font-family: worksans;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 56.1px */
+    text-transform: capitalize; 
+    margin-bottom: 0;   
+}
+
+.button_b79 {
+    background: var(--call-to-action, #A259FF);
+    border: none;
+    width: 186px;
+}
+
+.button_follow {
+    border: 2px solid var(--call-to-action, #A259FF);
+    background: none;
+    width: 145px;
+    margin-left: 20px;
+}
+
+.button_b79, .button_follow {
+    border-radius: 20px;
+    height: 60px;
+    color: #FFF;
+    font-family: worksans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */    
+    outline: none;
+}
+
+.svg_10 {
+    margin-right: 10px;
+}
+
+.svg_button_1 {
+    top: 20px;
+    left: 20px;
+}
+
+.svg_button_2 {
+    top: 20px;
+    left: 30px;
+}
+
+.cstm_m {
+    margin-right: 20px;
+}
+
+.h5_bio {
+    color: #858584;
+
+    /* H5 - Space Mono */
+    font-family: spacemono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;
+    margin-bottom: 0;    
+}
+
+.anima_text_1 {
+    color: var(--white, #FFF);
+
+    /* Body Text- Work Sans */
+    font-family: worksans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */
+    text-transform: capitalize;  
+    margin-bottom: 0;  
+}
+
+.cstm_mr_10 {
+    margin-right: 10px;
+}
+
+.hr_cstm {
+    background: #3B3B3B !important;
+    height: 0;
+    border: 1px solid rgba(59, 59, 59, 1);
+}
+
+.tab_button_active, .tab_button {
+    border: none;
+    outline: none;
+    background: none;
+    height: 60px;
+    text-align: center;
+    
+    /* H5 - Work Sans */
+    font-family: worksans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;    
+}
+
+.tab_button_active {
+    border-bottom: 2px solid var(--caption-label-text, #858584);
+    color: var(--white, #FFF);
+}
+
+.tab_button {
+    color: var(--caption-label-text, #858584);   
+}
+
+.custom_badge_active {
+    background: #858584;    
+}
+
+.custom_badge_active, .custom_badge {
+    color: #FFF !important;
+    margin-left: 16px;
+    border-radius: 20px !important;  
+    /* Base (Body) - Space Mono */
+    font-family: spacemono !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 140% !important; /* 22.4px */    
+}
+
+.custom_badge {
+    background: var(--background-secondary, #3B3B3B) !important;
+}
+
+.outer-container-nft-cards {
+    background: var(--background-secondary, #3B3B3B);
+    padding: 80px 0;
+}
+
+.background_change {
+    background: var(--background, #2B2B2B) !important;
+}
+
+.artist_page_footer {
+    border-top: 2px solid var(--background, #2B2B2B);
+}
 
