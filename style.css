@@ -376,7 +376,8 @@ a {
         padding: 0 !important;
     }
 
-    .create_account_div {
+    .create_account_div, 
+    .collect_wallet_div {
         padding: 30px 18px 40px 30px !important;
     }
 
@@ -440,6 +441,26 @@ a {
 
     .nft_cards_container {
         padding: 0 30px !important;
+    }
+
+    .row_p40 {
+        padding-top: 30px !important;
+    }
+
+    .svg_metamask {
+        width: 32px !important;
+        height: 30px !important;
+    }
+
+    .wallet_choose_button {
+        height: 60px !important;
+        width: 100% !important;
+    }
+
+    .svg_walletconnect,
+    .svg_coinbase {
+        width: 32px !important;
+        height: 32px !important;
     }
  
 }
@@ -1331,7 +1352,7 @@ footer {
     margin-bottom: 0;    
 }
 
-.create_account_div {
+.create_account_div, .collect_wallet_div {
     padding: 100px 0 100px 30px;
 }
 
@@ -1592,5 +1613,43 @@ footer {
 
 .artist_page_footer {
     border-top: 2px solid var(--background, #2B2B2B);
+}
+
+.collectw_image {
+    height: 642px;
+}
+
+.collectw_image_mobile {
+    height: 232px;
+}
+
+.row_p40 {
+    padding-top: 40px;
+}
+
+.wallet_choose_button {
+    width: 320px;
+    height: 72px;
+    border-radius: 20px;
+    border: 1px solid var(--call-to-action, #A259FF);
+    background: var(--background-secondary, #3B3B3B);    
+    color: var(--white, #FFF);
+
+    /* H5 - Work Sans */
+    font-family: worksans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+    text-align: start; 
+    padding-left: 40px;   
+}
+
+.svg_metamask, .svg_walletconnect,
+.svg_coinbase {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
 }
 
