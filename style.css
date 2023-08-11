@@ -527,8 +527,34 @@ a {
     .description_text_div {
         width: 100% !important;
     }
+
+    .outer-container-browse {
+        padding: 40px 0 !important;
+    }
+
+    .container_mrk {
+        padding: 0 30px !important;
+    }
+
+    .mrk_h2 {
+        font-size: 28px !important;
+        line-height: 140% !important; /* 39.2px */
+    }
+
+    .mrk_p {
+        font-size: 16px !important;
+        line-height: 140% !important; /* 22.4px */
+    }
+
+    .outer-container-mrk-cards {
+        padding: 40px 0 !important;
+    }
+
+    .mrk_cards_container {
+        padding: 0 30px !important;
+    }
  
-}
+}   
 
     @media screen and (min-width: 767px) {
   
@@ -1905,5 +1931,60 @@ footer {
 
 .ht173 {
     height: 173px !important;
+}
+
+.outer-container-browse {
+    padding: 80px 0;
+}
+
+.mrk_h2 {
+    /* H2 - Work Sans */
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 110%; /* 56.1px */
+    text-transform: capitalize;    
+}
+
+.mrk_p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%; /* 35.2px */    
+}
+
+.mrk_h2, .mrk_p {
+    color: var(--white, #FFF);
+    font-family: worksans;
+    margin-bottom: 0;
+    font-style: normal;
+}
+
+.marketplace_search_input {
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid var(--background-secondary, #3B3B3B);    
+    background: none;
+    outline: none;
+    padding: 0 20px;
+}
+
+.marketplace_search_input::placeholder {
+    color: var(--caption-label-text, #858584);
+
+    /* Base(Body) - Work Sans */
+    font-family: worksans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.search_icon_mrk {
+    top: 18px;
+    right: 32px;
+}
+
+.outer-container-mrk-cards {
+    padding: 60px 0 80px;
+    background: var(--background-secondary, #3B3B3B);
 }
 
